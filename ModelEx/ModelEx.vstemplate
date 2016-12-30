@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<VSTemplate Version="3.0.0" Type="Item" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" xmlns:sdk="http://schemas.microsoft.com/developer/vstemplate-sdkextension/2010">
+  <TemplateData>
+    <Name>ModelEx</Name>
+    <Description>ModelEx</Description>
+    <Icon>ModelEx.ico</Icon>
+    <TemplateID>38c1339b-df18-48b2-a3c0-e0c31b8e24fa</TemplateID>
+    <ProjectType>CSharp</ProjectType>
+    <TemplateGroupID>DotNetWeb</TemplateGroupID>
+    <AppliesTo>CSharp | DNX</AppliesTo> 
+    <RequiredFrameworkVersion>2.0</RequiredFrameworkVersion>
+    <NumberOfParentCategoriesToRollUp>1</NumberOfParentCategoriesToRollUp>
+    <DefaultName>Class.cs</DefaultName>
+  </TemplateData>
+  <TemplateContent>
+    <ProjectItem SubType="Code" TargetFileName="wasddsaw/$fileinputname$.cs" ReplaceParameters="true">DomainModel.cs</ProjectItem>
+    <ProjectItem SubType="Code" TargetFileName="wasddsaw/I$fileinputname$Repository.cs" ReplaceParameters="true">IModelRepository.cs</ProjectItem>
+    <ProjectItem SubType="Code" TargetFileName="wasddsaw/$fileinputname$Repository.cs" ReplaceParameters="true">ModelRepository.cs</ProjectItem>
+    <ProjectItem SubType="Code" TargetFileName="wasddsaw/$fileinputname$Service.cs" ReplaceParameters="true">ModelService.cs</ProjectItem>
+    <ProjectItem SubType="Code" TargetFileName="wasddsaw/I$fileinputname$Service.cs" ReplaceParameters="true">IModelService.cs</ProjectItem>
+    <CustomParameters>
+      <CustomParameter Name="$basename$" Value="$fileinputname$"/>      
+    </CustomParameters>
+  </TemplateContent>
+  <WizardExtension>
+    <Assembly>
+      ModelExWizard, Version=1.0.0.0, Culture=neutral, PublicKeyToken=782f08da9605fc7f
+    </Assembly>
+    <FullClassName>ModelExWizard.TemplatePreProcessor</FullClassName>
+  </WizardExtension>
+</VSTemplate>

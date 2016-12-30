@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ModelExTemplate", "ModelEx\ModelExTemplate.csproj", "{07D68E21-4F7E-41B0-A73A-6AFA8DB05490}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ModelExDeploy", "ModelExDeploy\ModelExDeploy.csproj", "{6ED4B694-1E92-4480-922B-C95FD07B11E8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ModelExWizard", "ModelExWizard\ModelExWizard.csproj", "{BFA8FA04-AC8D-43FE-91C9-62115C0D3726}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{07D68E21-4F7E-41B0-A73A-6AFA8DB05490}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{07D68E21-4F7E-41B0-A73A-6AFA8DB05490}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{07D68E21-4F7E-41B0-A73A-6AFA8DB05490}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{07D68E21-4F7E-41B0-A73A-6AFA8DB05490}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6ED4B694-1E92-4480-922B-C95FD07B11E8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6ED4B694-1E92-4480-922B-C95FD07B11E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6ED4B694-1E92-4480-922B-C95FD07B11E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6ED4B694-1E92-4480-922B-C95FD07B11E8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BFA8FA04-AC8D-43FE-91C9-62115C0D3726}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BFA8FA04-AC8D-43FE-91C9-62115C0D3726}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BFA8FA04-AC8D-43FE-91C9-62115C0D3726}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BFA8FA04-AC8D-43FE-91C9-62115C0D3726}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
