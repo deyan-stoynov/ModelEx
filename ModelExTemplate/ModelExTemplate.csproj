@@ -34,8 +34,8 @@
     <ProjectGuid>{07D68E21-4F7E-41B0-A73A-6AFA8DB05490}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>ModelEx</RootNamespace>
-    <AssemblyName>ModelEx</AssemblyName>
+    <RootNamespace>ModelExTemplate</RootNamespace>
+    <AssemblyName>ModelExTemplate</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <GeneratePkgDefFile>false</GeneratePkgDefFile>

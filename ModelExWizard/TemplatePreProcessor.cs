@@ -131,6 +131,7 @@ namespace ModelExWizard
 
         public void RunFinished()
         {
+            _tempFolder?.Remove();
             _tempFolder?.Delete();
         }
 

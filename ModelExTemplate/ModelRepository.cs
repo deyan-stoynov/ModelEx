@@ -12,7 +12,7 @@ namespace $DataNamespace$
     public class $basename$Repository : I$basename$Repository
 	{
         /// See <see cref="I$basename$Repository" /> for more.
-        public Task<$basename$> GetAsync(int id)
+        public Task<$basename$> GetAsync(long id)
         {
             throw new NotImplementedException();
         }

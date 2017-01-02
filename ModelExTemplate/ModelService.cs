@@ -32,7 +32,7 @@ namespace $BuisnessNamespace$
         #region Public Methods
 
         /// See <see cref="I$basename$Service" /> for more.
-        public Task<$basename$> GetAsync(int id)
+        public Task<$basename$> GetAsync(long id)
         {
             return $propname$.GetAsync(id);
         }

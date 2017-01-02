@@ -2,22 +2,22 @@
 using System.Threading.Tasks;
 using $DomainNamespace$;
 
-namespace $CoreServiceNamespace$
+namespace $CoreRepoNamespace$
 {
     /// <summary>
-    /// The default <see cref="I$basename$Service"/> implementation.
+    /// The $itemname$ repository interface.
     /// </summary>
-    public interface I$basename$Service
-	{        
+    public interface I$basename$Repository
+	{    
         /// <summary>
         /// Gets the element by identifier asynchronously.
         /// </summary>
         /// <param name="id">The identifier.</param>
-        Task<$basename$> GetAsync(int id);
+        Task<$basename$> GetAsync(long id);
 
         /// <summary>
         /// Gets the all elements asynchronously.
         /// </summary>
         Task<IEnumerable<$basename$>> GetAllAsync();
-    }
+     }
 }

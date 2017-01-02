@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011" xmlns:d="http://schemas.microsoft.com/developer/vsx-schema-design/2011">
   <Metadata>
-    <Identity Id="ModelExDeploy.Deyan Stoinov.b3069840-c7bf-4de9-bc45-b1ad1bf441f3" Version="1.0" Language="en-US" Publisher="Deyan Stoinov" />
+    <Identity Id="ModelExDeploy.Deyan Stoinov.aeda08a9-dacd-4142-aaf2-3d3e8b16a331" Version="1.0" Language="en-US" Publisher="Deyan Stoinov" />
     <DisplayName>ModelExDeploy</DisplayName>
     <Description>Empty VSIX Project.</Description>
   </Metadata>
@@ -12,7 +12,7 @@
     <Dependency Id="Microsoft.Framework.NDP" DisplayName="Microsoft .NET Framework" d:Source="Manual" Version="[4.5,)" />
   </Dependencies>
   <Assets>
-    <Asset Type="Microsoft.VisualStudio.ItemTemplate" d:Source="Project" d:ProjectName="ModelExTemplate" d:TargetPath="|ModelExTemplate;TemplateProjectOutputGroup|" Path="ItemTemplates" d:VsixSubPath="ItemTemplates" />
     <Asset Type="Microsoft.VisualStudio.Assembly" d:Source="Project" d:ProjectName="ModelExWizard" Path="|ModelExWizard|" AssemblyName="|ModelExWizard;AssemblyName|" />
+    <Asset Type="Microsoft.VisualStudio.ItemTemplate" d:Source="Project" d:ProjectName="ModelExTemplate" d:TargetPath="|ModelExTemplate;TemplateProjectOutputGroup|" Path="ItemTemplates" d:VsixSubPath="ItemTemplates" />
   </Assets>
 </PackageManifest>
