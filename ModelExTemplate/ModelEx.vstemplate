@@ -13,14 +13,11 @@
     <DefaultName>Class.cs</DefaultName>
   </TemplateData>
   <TemplateContent>
-    <ProjectItem SubType="Code" TargetFileName="wasddsaw/$fileinputname$.cs" ReplaceParameters="true">DomainModel.cs</ProjectItem>
-    <ProjectItem SubType="Code" TargetFileName="wasddsaw/I$fileinputname$Repository.cs" ReplaceParameters="true">IModelRepository.cs</ProjectItem>
-    <ProjectItem SubType="Code" TargetFileName="wasddsaw/$fileinputname$Repository.cs" ReplaceParameters="true">ModelRepository.cs</ProjectItem>
-    <ProjectItem SubType="Code" TargetFileName="wasddsaw/$fileinputname$Service.cs" ReplaceParameters="true">ModelService.cs</ProjectItem>
-    <ProjectItem SubType="Code" TargetFileName="wasddsaw/I$fileinputname$Service.cs" ReplaceParameters="true">IModelService.cs</ProjectItem>
-    <CustomParameters>
-      <CustomParameter Name="$basename$" Value="$fileinputname$"/>      
-    </CustomParameters>
+    <ProjectItem SubType="Code" TargetFileName="wasddsaw/$basename$.cs" ReplaceParameters="true">DomainModel.cs</ProjectItem>
+    <ProjectItem SubType="Code" TargetFileName="wasddsaw/I$basename$Repository.cs" ReplaceParameters="true">IModelRepository.cs</ProjectItem>
+    <ProjectItem SubType="Code" TargetFileName="wasddsaw/$basename$Repository.cs" ReplaceParameters="true">ModelRepository.cs</ProjectItem>
+    <ProjectItem SubType="Code" TargetFileName="wasddsaw/$basename$Service.cs" ReplaceParameters="true">ModelService.cs</ProjectItem>
+    <ProjectItem SubType="Code" TargetFileName="wasddsaw/I$basename$Service.cs" ReplaceParameters="true">IModelService.cs</ProjectItem>
   </TemplateContent>
   <WizardExtension>
     <Assembly>

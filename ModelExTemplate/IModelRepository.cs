@@ -5,7 +5,7 @@ using $DomainNamespace$;
 namespace $CoreRepoNamespace$
 {
     /// <summary>
-    /// The $itemname$ repository interface.
+    /// The $basename$ repository interface.
     /// </summary>
     public interface I$basename$Repository
 	{    

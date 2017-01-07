@@ -1,4 +1,5 @@
 ﻿using System.Collections.Generic;
+using System.Globalization;
 using System.IO;
 using System.Linq;
 using EnvDTE;
@@ -115,7 +116,9 @@ namespace ModelExWizard
             _modelsProject = form.SelectedModelsProject;
 
             _modelName = replacementsDictionary["$safeitemname$"];
-            _modelName = char.ToUpperInvariant(_modelName[0]) + _modelName.Substring(1);
+
+            // Format the model name in case when someone typed 'eMploYeE' instead of 'Employee'
+            _modelName = CultureInfo.CurrentCulture.TextInfo.ToTitleCase(_modelName);
 
             SetParameters(replacementsDictionary);
         }
@@ -141,6 +144,7 @@ namespace ModelExWizard
 
         private void SetParameters(Dictionary<string, string> replacementsDictionary)
         {
+            replacementsDictionary.Add("$basename$", _modelName);
             replacementsDictionary.Add(
                         "$propname$",
                         string.Concat("_", char.ToLowerInvariant(_modelName[0]), _modelName.Substring(1), REPOSITORY_NAME));

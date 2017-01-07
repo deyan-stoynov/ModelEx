@@ -5,7 +5,7 @@ using $DomainNamespace$;
 namespace $CoreServiceNamespace$
 {
     /// <summary>
-    /// The default <see cref="I$basename$Service"/> implementation.
+    /// The $basename$ service interface.
     /// </summary>
     public interface I$basename$Service
 	{        
